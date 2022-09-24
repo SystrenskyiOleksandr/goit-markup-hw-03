@@ -209,9 +209,13 @@ ul {
 }
 
 .back {
-    background-color: var(--background-color)
+    background-color: var(--background-color);
+    margin-right: 30px;
 }
 
+.back:nth-child(4n) {
+    margin-right: 0;
+}
 .team-background {
     background-color: var(--background-color);
     margin-top: 30px;
@@ -371,19 +375,16 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .sec-btn,
 .btn:not(:last-child) {
     margin-right: 8px;
-
 }
 
 .flex-cont {
     display: flex;
-
-}
+    }
 
 .size {
     width: 270px;
@@ -392,15 +393,13 @@ ul {
 
 .size:nth-child(4n) {
     margin-right: 0;
+}
 
-    .picture {
-        display: flex;
-        margin-right: 30px;
-        flex-direction: row;
-    }
+.picture {
+    margin-right: 30px;
+}
 
-    .picture-element:nth-child(3n) {
-        margin-right: 0;
-    }
+.picture:nth-child(3n) {
+    margin-right: 0;
+}
 
-    .picture-element {}
