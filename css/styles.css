@@ -9,6 +9,7 @@
     --color-logo: #000000;
     --background-color-hero: #2F303A;
     --button-main-hover: #188CE8;
+    --border-color: #ECECEC;
 }
 
 body {
@@ -31,8 +32,8 @@ p {
 }
 
 .page-header {
-    padding-top: 24px;
     display: flex;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .main-nav {
@@ -41,7 +42,7 @@ p {
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -144,7 +145,8 @@ ul {
 
 .hero {
     text-align: center;
-
+    padding-top: 200px;
+    padding-bottom: 200px;
     outline: 2px solid tomato;
 }
 
@@ -156,16 +158,16 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: 30px;
-    padding-top: 200px;
-
-
-
-
-}
+    }
 
 .section {
     padding-top: 94px;
+    padding-bottom: 94px;
 
+}
+
+.prioritets {
+    padding-top: 94px;
 }
 
 .title-link {
@@ -183,17 +185,28 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-top: 10px;
-    text-align: center;
-}
+    }
 
+.text-position {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+    text-align: center;
+    }
 .title-name {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     text-align: center;
+}
+.we-do {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    display: block;
 }
 
 /* our prioritets */
@@ -219,7 +232,8 @@ ul {
 }
 .team-background {
     background-color: var(--background-color);
-    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .name {
@@ -243,9 +257,7 @@ ul {
 }
 
 .button.main {
-    padding: 10px 32px;
-    min-width: 216px;
-    height: 50px;
+    padding: 10px 32px;   
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: var(--background-color);
     background-color: var(--accent-color);
@@ -254,7 +266,7 @@ ul {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    margin-bottom: 200px;
+   
 }
 
 .button.secondary {
@@ -285,6 +297,7 @@ ul {
 
 .footer {
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .place {
@@ -294,6 +307,7 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-top: 20px;
 }
 
 .contacts {
@@ -303,11 +317,12 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin-top: 9px;
 }
 
 .address {
     margin-top: 20px;
-    padding-bottom: 60px;
+    
 }
 
 .contacts:hover,
@@ -353,8 +368,8 @@ ul {
 }
 
 .photo-link {
-    padding-top: 50px;
-    padding-bottom: 94px;
+    margin-top: 50px;
+
 }
 
 .flex-container {
@@ -385,7 +400,9 @@ ul {
 }
 
 .flex-cont {
+    
     display: flex;
+   
     }
 
 .size {
@@ -397,8 +414,9 @@ ul {
     margin-right: 0;
 }
 
-.picture {
+.picture {    
     margin-right: 30px;
+    
 }
 
 .picture:nth-child(3n) {
