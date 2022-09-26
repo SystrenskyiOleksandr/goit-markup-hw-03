@@ -48,8 +48,7 @@ p {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-    outline: 2px solid tomato;
+    margin: 0 auto;    
 }
 
 .logo {
@@ -63,7 +62,6 @@ p {
     padding-bottom: 25px;
     padding-top: 24px;
     display: flex;
-
 }
 
 .logo-down {
@@ -74,18 +72,15 @@ p {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-
 }
 
 .logo-blue {
     color: var(--accent-color);
-
 }
 
 .navigate,
 .cont-top {    
     display: flex;
-
 }
 
 .navigate {
@@ -104,7 +99,6 @@ ul {
 
 .item:not(:last-child) {
     margin-right: 50px;
-
 }
 
 
@@ -118,7 +112,6 @@ ul {
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
-
 }
 
 .nav-link:hover,
@@ -154,7 +147,6 @@ ul {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    outline: 2px solid tomato;
 }
 
 .title {
@@ -170,13 +162,14 @@ ul {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
 
 .img {
     display: block;
     max-width: 100%;
+    height: auto;
 }
+
 .prioritets {
     padding-top: 94px;
 }
@@ -259,8 +252,7 @@ ul {
 /* button */
 
 .button {
-    text-align: center;
-    display: inline-block;
+    text-align: center;    
     border-radius: 4px;
     color: var(--title-text-color);
     background-color: var(--second-background-color);
@@ -327,13 +319,11 @@ ul {
     text-decoration: none;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-    
+    letter-spacing: 0.03em;    
 }
 
 .address {
-    margin-top: 20px;
-    
+    margin-top: 20px;    
 }
 
 .address-down {
@@ -389,18 +379,15 @@ ul {
     line-height: 1.88;
     letter-spacing: 0.03em;
     margin-top: 4px;
-    padding-bottom: 20px;
 }
 
 .photo-link {
     margin-top: 50px;
-
 }
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .flex-element {
@@ -428,8 +415,8 @@ ul {
 }
 
 .flex-cont {    
-    display: flex;   
-    }
+    display: flex;
+}
 
 .size {
     width: 270px;
@@ -448,4 +435,3 @@ ul {
 .picture:nth-child(3n) {
     margin-right: 0;
 }
-
