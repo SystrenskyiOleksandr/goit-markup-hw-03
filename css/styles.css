@@ -10,9 +10,12 @@
     --background-color-hero: #2F303A;
     --button-main-hover: #188CE8;
     --border-color: #ECECEC;
+    --second-border-color: #EEEEEE;
 }
 
 body {
+    display: block;
+    max-width: 100%;
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
     background-color: var(--background-color);
@@ -80,9 +83,7 @@ p {
 }
 
 .navigate,
-.cont-top {
-    padding-top: 32px;
-    padding-bottom: 32px;
+.cont-top {    
     display: flex;
 
 }
@@ -115,6 +116,9 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
 }
 
 .nav-link:hover,
@@ -128,12 +132,15 @@ ul {
 
 .telephone,
 .mail {
+    display: block;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /* main */
@@ -166,6 +173,10 @@ ul {
 
 }
 
+.img {
+    display: block;
+    max-width: 100%;
+}
 .prioritets {
     padding-top: 94px;
 }
@@ -317,12 +328,20 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    margin-top: 9px;
+    
 }
 
 .address {
     margin-top: 20px;
     
+}
+
+.address-down {
+    margin-bottom: 9px;
+}
+
+.address-down:last-child {
+    margin-bottom: 0px;
 }
 
 .contacts:hover,
@@ -350,13 +369,18 @@ ul {
     text-decoration: none;
 }
 
+.border {
+    padding: 20px 24px;
+    border-left: 1px solid var(--second-border-color);
+    border-right: 1px solid var(--second-border-color);
+    border-bottom: 1px solid var(--second-border-color);
+}
 .title-photo {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
 }
 
 .text-photo {
@@ -365,6 +389,7 @@ ul {
     line-height: 1.88;
     letter-spacing: 0.03em;
     margin-top: 4px;
+    padding-bottom: 20px;
 }
 
 .photo-link {
@@ -388,21 +413,22 @@ ul {
     margin-right: 0;
 }
 
+.flex-element:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
 .sec-btn {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.sec-btn,
 .btn:not(:last-child) {
     margin-right: 8px;
 }
 
-.flex-cont {
-    
-    display: flex;
-   
+.flex-cont {    
+    display: flex;   
     }
 
 .size {
